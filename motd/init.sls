@@ -5,4 +5,4 @@
 
 /etc/motd:
   file.managed:
-    - contents: {{ motd_content | yaml_encode }}
+    - contents: {{ motd_text | yaml_encode }}
